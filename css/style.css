@@ -1,9 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
-/* @font-face {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    src: url("path/GraublauWeb.otf") format("opentype");
-} */
 
 * {
   margin: 0;
@@ -16,6 +12,8 @@
 body {
   background-color: #fff;
 }
+
+/* free ship css start */
 
 .free-ship {
   background-color: #5a6d57;
@@ -31,14 +29,32 @@ body {
   color: #fff;
 }
 
+/* free ship css end */
+
+
+/* navbar css start */
 .navbar-brand .logo {
   width: 184px;
   height: 46px;
 }
 
+.nav-icons a{
+  text-decoration: none;
+  color: #000;
+}
+
+/* navbar css end */
+
+
+/* top banner css start */
+
 #top-banner {
   padding-bottom: 60px;
 }
+
+/* top banner css end */
+
+/* carousel css start */
 
 .carousel-item img {
   height: 600px;
@@ -71,6 +87,11 @@ body {
   color: #fff;
 }
 
+/* carousel css end */
+
+
+/* best seller css start */
+
 #best-seller {
   padding-bottom: 60px;
 }
@@ -95,6 +116,10 @@ body {
 #best-seller .card:hover {
   transform: rotate(5deg);
 }
+
+/* best seller css end */
+
+/* collection css start */
 
 #collection {
   padding-bottom: 60px;
@@ -127,6 +152,11 @@ body {
   margin-bottom: 110px;
 }
 
+/* collection css end */
+
+
+/* follow css start */
+
 #follow {
   padding-bottom: 60px;
 }
@@ -150,6 +180,10 @@ body {
   transform: rotate(360deg);
 }
 
+/* follow css end */
+
+/* footer css start */
+
 #footer {
   background-color: #404040;
   height: fit-content;
@@ -161,13 +195,27 @@ body {
     font-size: 20px;
 }
 
+#footer ul li a{
+  text-decoration: none;
+  color: #fff;
+}
+
+/* footer css end */
+
+
 @media only screen and (max-width: 767px) {
   .carousel-item img {
     height: fit-content;
   }
 
+  .carousel-img-text{
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #fff; 
+    padding: 10px;
+  }
+
   .carousel-img-text h3 {
-    font-size: 20px;
+    font-size: 16px;
   }
   
   .carousel-img-text a {
@@ -179,5 +227,9 @@ body {
 
   .img3 {
     margin-bottom: 15px;
+  }
+
+  #footer {
+    padding: 20px 15px;
   }
 }
